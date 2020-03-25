@@ -9,7 +9,7 @@ def cli():
 def addadmin():
     "Seed Admin data for testing"
     from server import SQLSession
-    from studyzoom.models.userModel import User
+    from temp.models.userModel import User
     import datetime
     import uuid
     session = SQLSession()

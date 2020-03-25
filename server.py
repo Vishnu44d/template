@@ -3,15 +3,15 @@ from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_migrate import Migrate
 
-from canteenzoom.config import DbEngine_config
-from canteenzoom import create_db_engine, create_db_sessionFactory
-from canteenzoom.models import createTables, destroyTables
+from temp.config import DbEngine_config
+from temp import create_db_engine, create_db_sessionFactory
+from temp.models import createTables, destroyTables
 
 from flask_cors import CORS
 from dotenv import load_dotenv
 from flask_cors import CORS
 
-from canteenzoom.api import *
+from temp.api import *
 
 load_dotenv()
 

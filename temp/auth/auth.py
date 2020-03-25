@@ -1,5 +1,5 @@
 from flask import request, jsonify
-from canteenzoom.models.userModel import User
+from temp.models.userModel import User
 import jwt
 import os
 import datetime

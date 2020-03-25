@@ -1,7 +1,7 @@
 from flask import request, Blueprint, jsonify
-from canteenzoom.models.userModel import User
-from canteenzoom.models.menuModel import Meal
-from canteenzoom.auth import get_token, validate_token, get_staff_token
+from temp.models.userModel import User
+from temp.models.menuModel import Meal
+from temp.auth import get_token, validate_token, get_staff_token
 import uuid
 import datetime
 import json
